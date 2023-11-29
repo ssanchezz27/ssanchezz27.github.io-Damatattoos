@@ -1,0 +1,17 @@
+@media (min-width: 800px) {
+    .img-container{
+        width: 80rem;
+        height: 42rem;
+        margin-left: 8rem;
+    }
+
+    .title {
+        position: absolute;
+        margin-top: 25rem;
+        margin-left: -48rem;
+        text-align: start;
+    }
+    .article-container {
+        margin-top: 4rem;
+    }
+}

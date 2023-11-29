@@ -1,0 +1,258 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html{font-size: 62.5%; font-family: 'Poppins', sans-serif; scroll-behavior: smooth;}
+body {background-color: #242426;}
+
+:root {
+    --primary-colors: #8f3d38;
+    --secundary-color: #A962D9;
+    --body-color:#242426;
+    --font-color: #E0E5E6;
+}
+
+nav {
+    width: 100%; height: 5rem; background-color: var(--body-color);
+}
+header{display: flex;}
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: end;
+}
+
+.nav-bar a{
+    margin-right: 1.2rem;
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 1.4rem;
+    padding: .8rem;
+}
+
+.nav-bar li{
+    margin-top: 2rem;
+}
+
+.logo {
+    background-image: url(./Assets/logo.damatts.png);
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat; background-position: center; background-size: cover;   
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.presentation {
+    display: flex;
+    padding: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .title {
+    color: var(--font-color);
+    font-size: 2.5vw; 
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-size: 5vw; 
+  }
+.title span {
+    color: var(--primary-colors);
+}
+
+.img-container {
+    width: 40rem;
+    height: 20rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(./Assets/project1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+}
+
+.my-projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1a1919;
+    margin-top: 4rem;
+    padding: 3rem;
+}
+
+.button-projects {
+    display: flex;
+    position: absolute;
+    width: 20rem;
+    height: 5rem;
+    background-color: var(--primary-colors);
+    border-radius: .8rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #E0E5E6;
+    font-size: 1.4rem;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: -5.3rem;
+}
+.button-projects span {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(./Assets/arrow-down.png);
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+    margin-left: 1rem;
+}
+
+.article-container {
+    width: 90%;
+    height: auto;
+    background-color: var(--body-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    max-width: 400px;
+}
+
+.perfil-container {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-image: url(./Assets/damatato-perfil.jpg);
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.presentation-text h2{
+    font-size: 2rem;
+    color: var(--font-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.presentation-text p {
+    font-size: 1.2rem;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.main-gallery-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.projects-title {
+    font-size: 1.2rem;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.projects-title span {
+    color: var(--primary-colors);
+}
+
+.project-gallery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--body-color);
+    padding: 2rem;
+    justify-content: center;
+}
+
+.box {
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    background-position: center; background-repeat: no-repeat; background-size: cover; 
+}
+
+.box.box-1{
+    background-image: url(./Assets/project1.jpg);
+}
+.box.box-2{
+    background-image: url(./Assets/project5.jpg);
+}
+.box.box-3{
+    background-image: url(./Assets/project3.jpg);
+}
+.box.box-4{
+    background-image: url(./Assets/project4.jpg);
+}
+.box.box-5{
+    background-image: url(./Assets/project2.jpg);
+}
+
+footer{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1919;
+    justify-content: center;
+}
+
+.sec-top {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.sec-top figure {
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./Assets/logo.damatts.png);
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+    margin: auto;
+}
+
+.sec-top h2 {
+ text-align: center;
+ color: var(--font-color);
+ margin-top: 1rem;
+}
+
+.sec-top h2 span {
+    color: var(--primary-colors);
+}
+
+.icons{
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+}
+
+.icons a {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+
+.instagram{
+    background-image: url(./Assets/instagram.svg);
+}
+
+.tiktok {
+    background-image: url(./Assets/tiktok.svg);
+}
+
+.twitter{
+    background-image: url(./Assets/twitter.svg);
+}

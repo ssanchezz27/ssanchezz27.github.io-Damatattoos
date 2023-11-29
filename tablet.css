@@ -1,0 +1,23 @@
+@media (min-width: 665px) {
+    .img-container{
+        width: 80rem;
+        height: 42rem;
+        margin-left: 8rem;
+    }
+    .title {
+        position: absolute;
+        margin-top: 25rem;
+        margin-left: -40rem;
+        text-align: start;
+    }
+    .presentation-text {
+        margin-top: 1rem;
+    }
+    .article-container {
+        align-items: center;
+    }
+    .perfil-container{
+        margin-bottom: 0;
+    }
+} 
+
